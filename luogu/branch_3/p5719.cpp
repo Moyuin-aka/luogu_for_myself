@@ -3,7 +3,7 @@ using namespace std;
 int main(){
     int n,k;
     cin>>n>>k;
-    double num1,num2,t1,t2;
+    double num1=0,num2=0,t1=0,t2=0;
     int ans[n];
     for(int i=0;i<n;i++){
         ans[i]=i+1;
