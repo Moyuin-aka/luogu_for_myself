@@ -10,7 +10,7 @@ int main(){
     int height;
     cin>>height;
     height+=30;
-    int tia=0;
+    int time=0;
     for(int i=0;i<10;i++){
         if(ans[i]<=height){
             time+=1;

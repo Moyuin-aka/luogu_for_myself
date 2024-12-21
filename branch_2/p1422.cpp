@@ -9,7 +9,7 @@ int main(){
     else if(e>=151&&e<=400){
         charge=(e-150)*0.4663+150*0.4463;
     }
-   ”lse{
+   else{
         charge=(e-400)*0.5663+150*0.4463+250*0.4663;
     }
     printf("%.1f",charge);
