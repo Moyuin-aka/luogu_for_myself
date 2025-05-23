@@ -1,0 +1,36 @@
+# macOS 系统自动生成的垃圾文件
+.DS_Store
+
+# 编译产生的中间文件（C++、Java 等常见语言）
+*.out
+*.o
+*.class
+*.exe
+
+# 编辑器相关缓存
+*.log
+*.tmp
+*.swp
+*.swo
+
+# CLion / VSCode / Xcode
+.idea/
+.vscode/
+*.code-workspace
+
+# C++ 调试符号文件
+*.dSYM/
+
+# 临时测试数据或样例输入输出
+*.in
+*.out
+input.txt
+output.txt
+
+# Python/Java 临时缓存
+__pycache__/
+*.pyc
+
+# 忽略你个人的 notes 或 .bak 文件
+*.bak
+notes.txt
